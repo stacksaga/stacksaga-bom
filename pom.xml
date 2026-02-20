@@ -99,6 +99,37 @@
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-retry-reactive-support</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-retry-reactive-discoveryclient-support</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-retry-reactive-dns-support</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-retry-dns-spring-boot-starter</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-retry-discoveryclient-spring-boot-starter</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-agent-cluster-coordinator-support-impl</artifactId>
                 <version>1.0.0</version>
             </dependency>
@@ -107,6 +138,14 @@
                 <artifactId>stacksaga-agent-mysql-starter</artifactId>
                 <version>1.0.0</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-agent-mysql-core</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
