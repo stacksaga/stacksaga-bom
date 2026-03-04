@@ -47,16 +47,7 @@
                 <artifactId>stacksaga-mysql-reactive-support-core</artifactId>
                 <version>1.0.0</version>
             </dependency>
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-mysql-api-servlet</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-mysql-api-webflux</artifactId>
-                <version>1.0.0</version>
-            </dependency>
+
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-cassandra-reactive-support</artifactId>
@@ -144,6 +135,20 @@
                 <artifactId>stacksaga-agent-mysql-core</artifactId>
                 <version>1.0.0</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-trace-window-connector-servlet</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-trace-window-connector-webflux</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+
 
 
         </dependencies>
