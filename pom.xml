@@ -164,6 +164,24 @@
                 <version>1.0.0</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-agent-connector</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-agent-connector-impl</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-agent-connector-api</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
 
 
 
