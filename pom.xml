@@ -71,14 +71,10 @@
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-cassandra-api-servlet</artifactId>
+                <artifactId>stacksaga-cassandra-reactive-support-core</artifactId>
                 <version>1.0.0</version>
             </dependency>
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-cassandra-api-webflux</artifactId>
-                <version>1.0.0</version>
-            </dependency>
+
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-kafka-commons</artifactId>
@@ -152,6 +148,7 @@
                 <version>1.0.0</version>
             </dependency>
 
+
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-trace-window-connector-servlet</artifactId>
@@ -181,8 +178,6 @@
                 <artifactId>stacksaga-agent-connector-api</artifactId>
                 <version>1.0.0</version>
             </dependency>
-
-
 
 
         </dependencies>
