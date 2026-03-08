@@ -14,6 +14,10 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-cloud.version>2023.0.3</spring-cloud.version>
+        <org-javatuples.version>1.2</org-javatuples.version>
+        <jnanoid.version>2.0.0</jnanoid.version>
+        <swagger.annotations.jakarta>2.2.16</swagger.annotations.jakarta>
+        <io.github.completabletuples.version>2.0.0</io.github.completabletuples.version>
     </properties>
 
     <dependencyManagement>
@@ -179,6 +183,42 @@
                 <version>1.0.0</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-env-discoveryclient-support</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-env-k8s-support</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+
+            <!--non stacksaga dependencies-->
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-annotations-jakarta</artifactId>
+                <version>${swagger.annotations.jakarta}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.completabletuples</groupId>
+                <artifactId>completable-tuples</artifactId>
+                <version>${io.github.completabletuples.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.javatuples</groupId>
+                <artifactId>javatuples</artifactId>
+                <version>${org-javatuples.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.aventrix.jnanoid</groupId>
+                <artifactId>jnanoid</artifactId>
+                <version>${jnanoid.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
