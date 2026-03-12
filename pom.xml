@@ -18,6 +18,7 @@
         <jnanoid.version>2.0.0</jnanoid.version>
         <swagger.annotations.jakarta>2.2.16</swagger.annotations.jakarta>
         <io.github.completabletuples.version>2.0.0</io.github.completabletuples.version>
+        <cron-utils.version>9.1.6</cron-utils.version>
     </properties>
 
     <dependencyManagement>
@@ -219,7 +220,11 @@
                 <artifactId>jnanoid</artifactId>
                 <version>${jnanoid.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.cronutils</groupId>
+                <artifactId>cron-utils</artifactId>
+                <version>${cron-utils.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
