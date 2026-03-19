@@ -19,6 +19,7 @@
         <swagger.annotations.jakarta>2.2.16</swagger.annotations.jakarta>
         <io.github.completabletuples.version>2.0.0</io.github.completabletuples.version>
         <cron-utils.version>9.1.6</cron-utils.version>
+        <lombok.version>1.18.32</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -63,6 +64,12 @@
                 <artifactId>stacksaga-mysql-reactive-support</artifactId>
                 <version>1.0.0</version>
             </dependency>
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-mysql-reactive-support-api</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-mysql-reactive-support-core</artifactId>
@@ -224,6 +231,12 @@
                 <groupId>com.cronutils</groupId>
                 <artifactId>cron-utils</artifactId>
                 <version>${cron-utils.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
