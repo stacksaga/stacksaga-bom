@@ -20,6 +20,7 @@
         <io.github.completabletuples.version>2.0.0</io.github.completabletuples.version>
         <cron-utils.version>9.1.6</cron-utils.version>
         <lombok.version>1.18.32</lombok.version>
+
     </properties>
 
     <dependencyManagement>
@@ -205,6 +206,7 @@
 
 
             <!--non stacksaga dependencies-->
+
             <dependency>
                 <groupId>io.swagger.core.v3</groupId>
                 <artifactId>swagger-annotations-jakarta</artifactId>
