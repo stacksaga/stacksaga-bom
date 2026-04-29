@@ -179,13 +179,7 @@
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-trace-window-connector-mysql</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-trace-window-connector-cassandra</artifactId>
+                <artifactId>stacksaga-trace-window-connector-api</artifactId>
                 <version>1.0.0</version>
             </dependency>
 
@@ -224,6 +218,13 @@
                 <artifactId>stacksaga-env-k8s-support</artifactId>
                 <version>1.0.0</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-source-cache-support</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
 
 
             <!--non stacksaga dependencies-->
