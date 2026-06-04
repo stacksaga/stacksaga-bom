@@ -104,12 +104,12 @@
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-kafka-client</artifactId>
+                <artifactId>stacksaga-kafka-worker-starter</artifactId>
                 <version>1.0.0</version>
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-kafka-spring-boot-starter</artifactId>
+                <artifactId>stacksaga-kafka-orchestrator-starter</artifactId>
                 <version>1.0.0</version>
             </dependency>
             <dependency>
