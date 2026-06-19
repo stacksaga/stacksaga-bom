@@ -166,7 +166,7 @@
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-ring-coordinator-starter</artifactId>
+                <artifactId>stacksaga-ring-coordinator-spring-boot-starter</artifactId>
                 <version>1.0.0</version>
             </dependency>
 
