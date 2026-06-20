@@ -6,8 +6,35 @@
 
     <groupId>org.stacksaga</groupId>
     <artifactId>stacksaga-bom</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <name>StackSaga BOM</name>
+    <description>Bill of Materials for StackSaga Spring Boot ecosystem dependencies</description>
+    <url>https://github.com/stacksaga/stacksaga-bom</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>stacksaga</id>
+            <name>StackSaga</name>
+            <email>info@stacksaga.org</email>
+            <organization>Zoftstack Lanka</organization>
+            <organizationUrl>https://stacksaga.org</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://github.com/stacksaga/stacksaga-bom.git</connection>
+        <developerConnection>scm:git:https://github.com/stacksaga/stacksaga-bom.git</developerConnection>
+        <url>https://github.com/stacksaga/stacksaga-bom</url>
+    </scm>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -130,31 +157,6 @@
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-retry-reactive-discoveryclient-support</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-retry-reactive-dns-support</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-retry-dns-spring-boot-starter</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-retry-discoveryclient-spring-boot-starter</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-
-
-            <dependency>
-                <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-ring-coordinator-connector-api</artifactId>
                 <version>1.0.0</version>
             </dependency>
@@ -201,23 +203,6 @@
                 <version>1.0.0</version>
             </dependency>
 
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-agent-connector</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-agent-connector-impl</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-agent-connector-api</artifactId>
-                <version>1.0.0</version>
-            </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-source-cache-support</artifactId>
@@ -286,5 +271,20 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.11.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <publishingServerId>central</publishingServerId>
+                    <autoPublish>true</autoPublish>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
