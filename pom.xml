@@ -83,28 +83,28 @@
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-starter-commons</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-spring-boot-starter</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-mysql-reactive-support</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-mysql-reactive-support-api</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-mysql-reactive-support-impl</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
@@ -127,86 +127,86 @@
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-kafka-commons</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-kafka-worker-starter</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-kafka-orchestrator-starter</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-retry-reactive-support-api</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-retry-reactive-support-impl</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-retry-reactive-support</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-ring-coordinator-connector-api</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-ring-coordinator-connector</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-ring-coordinator-spring-boot-starter</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-agent-mysql-starter</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-agent-mysql-core</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-trace-window-connector-servlet</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-trace-window-connector-api</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-trace-window-connector-webflux</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-source-cache-support</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
 
