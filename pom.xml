@@ -40,13 +40,13 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-cloud.version>2023.0.3</spring-cloud.version>
+        <spring-cloud.version>2025.1.2</spring-cloud.version>
         <org-javatuples.version>1.2</org-javatuples.version>
         <jnanoid.version>2.0.0</jnanoid.version>
-        <swagger.annotations.jakarta>2.2.16</swagger.annotations.jakarta>
+        <swagger.annotations.jakarta>2.2.49</swagger.annotations.jakarta>
         <io.github.completabletuples.version>2.0.0</io.github.completabletuples.version>
         <cron-utils.version>9.1.6</cron-utils.version>
-        <lombok.version>1.18.32</lombok.version>
+        <lombok.version>1.18.46</lombok.version>
 
     </properties>
 
@@ -56,14 +56,14 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>3.5.12</version>
+                <version>4.1.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>2025.0.1</version>
+                <version>2025.1.2</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -261,6 +261,24 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.openrewrite.maven</groupId>
+                <artifactId>rewrite-maven-plugin</artifactId>
+                <version>6.43.0</version>
+                <configuration>
+                    <exportDatatables>true</exportDatatables>
+                    <activeRecipes>
+                        <recipe>org.openrewrite.java.spring.boot4.UpgradeSpringBoot_4_0</recipe>
+                    </activeRecipes>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.openrewrite.recipe</groupId>
+                        <artifactId>rewrite-spring</artifactId>
+                        <version>6.31.0</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
             <plugin>
                 <groupId>org.sonatype.central</groupId>
                 <artifactId>central-publishing-maven-plugin</artifactId>
