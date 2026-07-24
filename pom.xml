@@ -98,6 +98,9 @@
                 <artifactId>stacksaga-spring-boot-starter</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
+
+            <!--MYSQL-->
+
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-mysql-reactive-support</artifactId>
@@ -106,6 +109,32 @@
             <dependency>
                 <groupId>org.stacksaga</groupId>
                 <artifactId>stacksaga-mysql-reactive-support-impl</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+
+            <!--ORACLE-->
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-oracle-reactive-support</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-oracle-reactive-support-impl</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+
+            <!--PostgreSQL-->
+
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-pg-reactive-support</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>org.stacksaga</groupId>
+                <artifactId>stacksaga-pg-reactive-support-impl</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
@@ -185,17 +214,6 @@
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-agent-mysql-starter</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.stacksaga</groupId>
-                <artifactId>stacksaga-agent-mysql-core</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
-            </dependency>
 
 
             <dependency>
